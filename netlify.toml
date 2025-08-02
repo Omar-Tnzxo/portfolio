@@ -4,7 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "18"
-  CI = ""
+  CI = "false"
+  NPM_FLAGS = "--legacy-peer-deps"
+  VITE_BASE_URL = "./"
 
 [[redirects]]
   from = "/*"
